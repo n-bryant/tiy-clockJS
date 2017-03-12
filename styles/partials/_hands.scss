@@ -1,0 +1,20 @@
+.hand {
+    background: #1B3D6D;
+    height: 6px;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: transform 0.05s cubic-bezier(0.15, 2.94, 0.25, 1);
+    width: 50%;
+
+    &.min-hand {
+      background: darken(#1B3D6D, 10%);
+      height: 4px;
+    }
+
+    &.second-hand {
+      background: #900;
+      height: 2px;
+    }
+}

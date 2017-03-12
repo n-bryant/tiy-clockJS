@@ -1,0 +1,15 @@
+body {
+    align-items: center;
+    background: url('../images/dark_embroidery.png');
+    display: flex;
+    flex-direction: column;
+    font-family: $secondaryFont;
+    font-size: 16px;
+    justify-content: center;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+button {
+    margin: 1rem 0;
+}
